@@ -1,0 +1,96 @@
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.mainBlock {
+    margin: 50px auto 0 auto;
+    position: relative;
+    width: 500px;
+    height: 500px;
+
+
+
+}
+.krug1, .krug2, .krug3, .krug4 {
+    background: gray;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    bottom: 20px;
+    right: 20px;
+    position: absolute;
+}
+.block1, .block2, .block3, .block4 {
+    width: 250px;
+    height: 250px;
+    z-index: auto;
+}
+.block1 {
+    position: absolute;
+    background: red;
+
+}
+
+
+.block2 {
+    position: absolute;
+    background: green;
+    right: 30px;
+    top: 20px;
+
+}
+
+.block3 {
+    position: absolute;
+    background: blue;
+    bottom: 30px;
+    left: -10px;
+
+}
+.block4 {
+    position: absolute;
+    background: yellow;
+    right: 20px;
+    bottom: 20px;
+
+}
+.polosa1, .polosa2 {
+    background: black;
+    width: 10px;
+    height: 80px;
+    position: absolute;
+
+
+}
+.polosa1 {
+    left: 45%;
+    top: 10px;
+    width: 10px;
+    height: 80px;
+    transform: rotate(45grad);
+}
+.polosa2 {
+    margin-right: 5px;
+    width: 80px;
+    height: 10px;
+    top: 45%;
+    left: 10px;
+    transform: rotate(45grad);
+
+}
+.block1:hover {
+    z-index: 1 ;
+}
+.block2:hover {
+    z-index: 1 ;
+}
+.block3:hover {
+    z-index: 1 ;
+}
+.block4:hover {
+    z-index: 1 ;
+}
+
+
